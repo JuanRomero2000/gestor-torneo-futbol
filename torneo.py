@@ -31,6 +31,7 @@ class Torneo:
         self.fechas_terminadas = []
         self.fecha_actual = 1
         self.torneo_terminado = False
+        self.campeon = None
         self.equipos_ascendidos = []
         self.equipos_descendidos = []
         self.guardar_datos_json()
@@ -125,7 +126,8 @@ class Torneo:
             
         # Validar si ya se tienen todos los resultados de una fecha para agregar la fecha como terminada
         if self.partidos_completos_por_fecha(fecha):
-            self.fechas_terminadas.append(fecha)
+            if fecha not in self.fechas_terminadas:
+                self.fechas_terminadas.append(fecha)
             if self.fecha_actual < self.NUMERO_FECHAS:
                 self.fecha_actual += 1
         
@@ -161,7 +163,8 @@ class Torneo:
         # Validar si ya se tienen todos los resultados de una fecha para agregar la fecha como terminada
         
         if self.partidos_completos_por_fecha(fecha):
-            self.fechas_terminadas.append(fecha)
+            if fecha not in self.fechas_terminadas:
+                self.fechas_terminadas.append(fecha)
             if self.fecha_actual < self.NUMERO_FECHAS:
                 self.fecha_actual += 1
         
@@ -330,7 +333,6 @@ class Torneo:
             
         # Calcular ascensos y descensos
         tabla = sorted(self.equipos.values(), key=lambda x: (x.puntos, x.diferencia_goles, x.goles_a_favor), reverse=True)
-        print("CAMPEON: ", tabla[0])
         self.campeon = tabla[0].nombre
         self.equipos_ascendidos = [equipo.nombre for equipo in tabla[:3]]
         self.equipos_descendidos = [equipo.nombre for equipo in tabla[-3:]]

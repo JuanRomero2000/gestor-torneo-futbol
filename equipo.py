@@ -34,7 +34,6 @@ class Equipo:
         self.goles_en_contra -= goles_en_contra
 
         if goles_a_favor > goles_en_contra:
-            print("ganado")
             self.partidos_ganados -= 1
             self.puntos -= 3
         elif goles_a_favor == goles_en_contra:

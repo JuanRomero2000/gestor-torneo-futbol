@@ -60,30 +60,59 @@ def main():
                 
                 torneo.mostrar_calendario(fecha)
                 
-                partido = int(input("\nIngrese el número del partido:"))
-                if not partido:
+                partido = input("\nIngrese el número del partido: ")
+                
+                if not partido.strip():
                     print(f"{COLOR['rojo']}\nNo puede estar vacio.{COLOR['default']}")
                     continue
-
+                
+                try:
+                    partido = int(partido)
+                except ValueError:
+                    print(f"{COLOR['rojo']}\nDebe ingresar un número entero válido.{COLOR['default']}")
+                    continue
+                
                 if partido < 1 or partido > len(torneo.calendario[fecha]):
                     print(f"{COLOR['rojo']}Número de partido no válido. Por favor, intente nuevamente.{COLOR['default']}")
                     continue
                 
                 equipo_local, equipo_visitante = torneo.calendario[fecha][partido - 1]
                 
-                goles_local = int(input(f"Goles del equipo {equipo_local}: "))
-                if not goles_local:
+                goles_local = input(f"Goles del equipo {equipo_local}: ")
+                
+                if not goles_local.strip():
+                    print(f"{COLOR['rojo']}\nNo puede estar vacío.{COLOR['default']}")
+                    continue
+                
+                try:
+                    goles_local = int(goles_local)
+                except ValueError:
+                    print(f"{COLOR['rojo']}\nDebe ingresar un número entero válido.{COLOR['default']}")
+                
+                if goles_local < 0:
+                    print(f"{COLOR['rojo']}\nEl número no puede ser neagtivo.{COLOR['default']}")
+                    continue
+
+                goles_visitante = input(f"Goles del equipo {equipo_visitante}: ")
+                
+                if not goles_visitante.strip():
                     print(f"{COLOR['rojo']}\nNo puede estar vacio.{COLOR['default']}")
                     continue
                 
-                goles_visitante = int(input(f"Goles del equipo {equipo_visitante}: "))
-                if not fecha:
-                    print(f"{COLOR['rojo']}\nNo puede estar vacio.{COLOR['default']}")
+                try:
+                    goles_visitante = int(goles_visitante)
+                except ValueError:
+                    print(f"{COLOR['rojo']}\nDebe ingresar un número entero válido.{COLOR['default']}")
                     continue
                 
+                if goles_visitante < 0:
+                    print(f"{COLOR['rojo']}\nEl número no puede ser neagtivo.{COLOR['default']}")
+                    continue
+
                 torneo.ingresar_resultado(fecha,equipo_local, goles_local, equipo_visitante, goles_visitante)
             
             except ValueError:
+                print("algooo")
                 pass
         
         elif opcion == "4":
