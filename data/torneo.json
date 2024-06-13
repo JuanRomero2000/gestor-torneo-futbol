@@ -1,0 +1,231 @@
+{
+    "equipos": {
+        "Almeria": {
+            "nombre": "Almeria",
+            "partidos_jugados": 0,
+            "partidos_ganados": 0,
+            "partidos_empatados": 0,
+            "partidos_perdidos": 0,
+            "goles_a_favor": 0,
+            "goles_en_contra": 0,
+            "diferencia_goles": 0,
+            "puntos": 0
+        },
+        "Athletic Club": {
+            "nombre": "Athletic Club",
+            "partidos_jugados": 0,
+            "partidos_ganados": 0,
+            "partidos_empatados": 0,
+            "partidos_perdidos": 0,
+            "goles_a_favor": 0,
+            "goles_en_contra": 0,
+            "diferencia_goles": 0,
+            "puntos": 0
+        },
+        "Atletico de Madrid": {
+            "nombre": "Atletico de Madrid",
+            "partidos_jugados": 0,
+            "partidos_ganados": 0,
+            "partidos_empatados": 0,
+            "partidos_perdidos": 0,
+            "goles_a_favor": 0,
+            "goles_en_contra": 0,
+            "diferencia_goles": 0,
+            "puntos": 0
+        },
+        "Barcelona": {
+            "nombre": "Barcelona",
+            "partidos_jugados": 0,
+            "partidos_ganados": 0,
+            "partidos_empatados": 0,
+            "partidos_perdidos": 0,
+            "goles_a_favor": 0,
+            "goles_en_contra": 0,
+            "diferencia_goles": 0,
+            "puntos": 0
+        },
+        "Cadiz": {
+            "nombre": "Cadiz",
+            "partidos_jugados": 0,
+            "partidos_ganados": 0,
+            "partidos_empatados": 0,
+            "partidos_perdidos": 0,
+            "goles_a_favor": 0,
+            "goles_en_contra": 0,
+            "diferencia_goles": 0,
+            "puntos": 0
+        },
+        "Celta de Vigo": {
+            "nombre": "Celta de Vigo",
+            "partidos_jugados": 0,
+            "partidos_ganados": 0,
+            "partidos_empatados": 0,
+            "partidos_perdidos": 0,
+            "goles_a_favor": 0,
+            "goles_en_contra": 0,
+            "diferencia_goles": 0,
+            "puntos": 0
+        },
+        "Deportivo Alaves": {
+            "nombre": "Deportivo Alaves",
+            "partidos_jugados": 0,
+            "partidos_ganados": 0,
+            "partidos_empatados": 0,
+            "partidos_perdidos": 0,
+            "goles_a_favor": 0,
+            "goles_en_contra": 0,
+            "diferencia_goles": 0,
+            "puntos": 0
+        },
+        "Getafe": {
+            "nombre": "Getafe",
+            "partidos_jugados": 0,
+            "partidos_ganados": 0,
+            "partidos_empatados": 0,
+            "partidos_perdidos": 0,
+            "goles_a_favor": 0,
+            "goles_en_contra": 0,
+            "diferencia_goles": 0,
+            "puntos": 0
+        },
+        "Girona": {
+            "nombre": "Girona",
+            "partidos_jugados": 0,
+            "partidos_ganados": 0,
+            "partidos_empatados": 0,
+            "partidos_perdidos": 0,
+            "goles_a_favor": 0,
+            "goles_en_contra": 0,
+            "diferencia_goles": 0,
+            "puntos": 0
+        },
+        "Granada": {
+            "nombre": "Granada",
+            "partidos_jugados": 0,
+            "partidos_ganados": 0,
+            "partidos_empatados": 0,
+            "partidos_perdidos": 0,
+            "goles_a_favor": 0,
+            "goles_en_contra": 0,
+            "diferencia_goles": 0,
+            "puntos": 0
+        },
+        "Las Palmas": {
+            "nombre": "Las Palmas",
+            "partidos_jugados": 0,
+            "partidos_ganados": 0,
+            "partidos_empatados": 0,
+            "partidos_perdidos": 0,
+            "goles_a_favor": 0,
+            "goles_en_contra": 0,
+            "diferencia_goles": 0,
+            "puntos": 0
+        },
+        "Mallorca": {
+            "nombre": "Mallorca",
+            "partidos_jugados": 0,
+            "partidos_ganados": 0,
+            "partidos_empatados": 0,
+            "partidos_perdidos": 0,
+            "goles_a_favor": 0,
+            "goles_en_contra": 0,
+            "diferencia_goles": 0,
+            "puntos": 0
+        },
+        "Osasuna": {
+            "nombre": "Osasuna",
+            "partidos_jugados": 0,
+            "partidos_ganados": 0,
+            "partidos_empatados": 0,
+            "partidos_perdidos": 0,
+            "goles_a_favor": 0,
+            "goles_en_contra": 0,
+            "diferencia_goles": 0,
+            "puntos": 0
+        },
+        "Rayo Vallecano": {
+            "nombre": "Rayo Vallecano",
+            "partidos_jugados": 0,
+            "partidos_ganados": 0,
+            "partidos_empatados": 0,
+            "partidos_perdidos": 0,
+            "goles_a_favor": 0,
+            "goles_en_contra": 0,
+            "diferencia_goles": 0,
+            "puntos": 0
+        },
+        "Real Betis": {
+            "nombre": "Real Betis",
+            "partidos_jugados": 0,
+            "partidos_ganados": 0,
+            "partidos_empatados": 0,
+            "partidos_perdidos": 0,
+            "goles_a_favor": 0,
+            "goles_en_contra": 0,
+            "diferencia_goles": 0,
+            "puntos": 0
+        },
+        "Real Madrid": {
+            "nombre": "Real Madrid",
+            "partidos_jugados": 0,
+            "partidos_ganados": 0,
+            "partidos_empatados": 0,
+            "partidos_perdidos": 0,
+            "goles_a_favor": 0,
+            "goles_en_contra": 0,
+            "diferencia_goles": 0,
+            "puntos": 0
+        },
+        "Real Sociedad": {
+            "nombre": "Real Sociedad",
+            "partidos_jugados": 0,
+            "partidos_ganados": 0,
+            "partidos_empatados": 0,
+            "partidos_perdidos": 0,
+            "goles_a_favor": 0,
+            "goles_en_contra": 0,
+            "diferencia_goles": 0,
+            "puntos": 0
+        },
+        "Sevilla": {
+            "nombre": "Sevilla",
+            "partidos_jugados": 0,
+            "partidos_ganados": 0,
+            "partidos_empatados": 0,
+            "partidos_perdidos": 0,
+            "goles_a_favor": 0,
+            "goles_en_contra": 0,
+            "diferencia_goles": 0,
+            "puntos": 0
+        },
+        "Valencia": {
+            "nombre": "Valencia",
+            "partidos_jugados": 0,
+            "partidos_ganados": 0,
+            "partidos_empatados": 0,
+            "partidos_perdidos": 0,
+            "goles_a_favor": 0,
+            "goles_en_contra": 0,
+            "diferencia_goles": 0,
+            "puntos": 0
+        },
+        "Villarreal": {
+            "nombre": "Villarreal",
+            "partidos_jugados": 0,
+            "partidos_ganados": 0,
+            "partidos_empatados": 0,
+            "partidos_perdidos": 0,
+            "goles_a_favor": 0,
+            "goles_en_contra": 0,
+            "diferencia_goles": 0,
+            "puntos": 0
+        }
+    },
+    "calendario": {},
+    "fechas_terminadas": [],
+    "fecha_actual": 1,
+    "torneo_terminado": false,
+    "campeon": null,
+    "equipos_ascendidos": [],
+    "equipos_descendidos": []
+}
